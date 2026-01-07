@@ -55,7 +55,7 @@ def load_model():
     """Load trained model from Hugging Face Hub"""
     try:
         model_path = hf_hub_download(
-            repo_id="Vaibhavsharma45/crypto_pridiction_project",
+            repo_id="AnshumanPandey/crypto_pridiction_project",
             filename="volatility_model.pkl"
         )
 
